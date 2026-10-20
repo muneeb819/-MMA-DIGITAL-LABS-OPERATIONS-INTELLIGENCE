@@ -1,0 +1,544 @@
+
+  BPO ADRIENE — AI Agent Playground
+  ----------------------------------------------
+  Folder  : C:\Users\Wave\Downloads\AdrieneVoiceStudio
+  Database: C:\Users\Wave\Downloads\AdrieneVoiceStudio\data\adriene.db
+  URL     : http://localhost:8010/
+  Health  : http://localhost:8010/api/health
+  TTS     : Deepgram Aura (server key)
+  Stop    : Ctrl+C
+
+  21/Oct/2026 01:13:16 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:13:50 "POST /api/security/selftest HTTP/1.1" 200 -
+  21/Oct/2026 01:13:52 "POST /api/telephony/enable HTTP/1.1" 403 -
+  21/Oct/2026 01:13:56 "GET /docs HTTP/1.1" 200 -
+  21/Oct/2026 01:13:56 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:13:56 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+  21/Oct/2026 01:13:56 "GET /assets/css/app.css HTTP/1.1" 200 -
+  21/Oct/2026 01:13:56 "GET /assets/js/shell.js HTTP/1.1" 200 -
+  21/Oct/2026 01:13:56 "GET /assets/js/api.js HTTP/1.1" 200 -
+  21/Oct/2026 01:13:56 "GET /assets/js/page-docs.js HTTP/1.1" 200 -
+  21/Oct/2026 01:13:57 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:13:57 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:13:57 "GET /api/test-runs HTTP/1.1" 200 -
+  21/Oct/2026 01:13:57 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:13:57 "GET /api/telephony/logs HTTP/1.1" 200 -
+  21/Oct/2026 01:13:57 "POST /api/security/selftest HTTP/1.1" 200 -
+  21/Oct/2026 01:14:58 "GET /docs HTTP/1.1" 200 -
+  21/Oct/2026 01:14:58 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:14:58 "GET /assets/css/app.css HTTP/1.1" 200 -  21/Oct/2026 01:14:58 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:14:58 "GET /assets/js/api.js HTTP/1.1" 200 -  21/Oct/2026 01:14:58 "GET /assets/js/shell.js HTTP/1.1" 200 -  21/Oct/2026 01:14:58 "GET /assets/js/page-docs.js HTTP/1.1" 200 -
+
+
+  21/Oct/2026 01:14:59 "GET /assets/fonts/font-13.woff2 HTTP/1.1" 200 -
+  21/Oct/2026 01:14:59 "GET /assets/fonts/font-7.woff2 HTTP/1.1" 200 -
+  21/Oct/2026 01:14:59 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:14:59 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:14:59 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:14:59 "GET /api/test-runs HTTP/1.1" 200 -
+  21/Oct/2026 01:14:59 "GET /api/telephony/logs HTTP/1.1" 200 -
+  21/Oct/2026 01:14:59 "POST /api/security/selftest HTTP/1.1" 200 -
+  21/Oct/2026 01:14:59 "GET /assets/favicon.svg HTTP/1.1" 200 -
+  21/Oct/2026 01:16:11 "GET /docs HTTP/1.1" 200 -
+  21/Oct/2026 01:16:30 "GET /docs HTTP/1.1" 200 -
+  21/Oct/2026 01:16:30 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:16:30 "GET /assets/css/app.css HTTP/1.1" 200 -  21/Oct/2026 01:16:30 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+  21/Oct/2026 01:16:30 "GET /assets/js/api.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:16:30 "GET /assets/js/shell.js HTTP/1.1" 200 -
+  21/Oct/2026 01:16:30 "GET /assets/js/page-docs.js HTTP/1.1" 200 -
+  21/Oct/2026 01:16:30 "GET /assets/fonts/font-13.woff2 HTTP/1.1" 200 -  21/Oct/2026 01:16:30 "GET /assets/fonts/font-7.woff2 HTTP/1.1" 200 -
+
+  21/Oct/2026 01:16:30 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:16:31 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:16:31 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:16:31 "GET /api/telephony/logs HTTP/1.1" 200 -
+  21/Oct/2026 01:16:31 "GET /api/test-runs HTTP/1.1" 200 -
+  21/Oct/2026 01:16:31 "POST /api/security/selftest HTTP/1.1" 200 -
+  21/Oct/2026 01:16:31 "GET /assets/favicon.svg HTTP/1.1" 200 -
+  21/Oct/2026 01:16:50 "GET /docs HTTP/1.1" 200 -
+  21/Oct/2026 01:16:50 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:16:50 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+  21/Oct/2026 01:16:50 "GET /assets/js/api.js HTTP/1.1" 200 -
+  21/Oct/2026 01:16:50 "GET /assets/css/app.css HTTP/1.1" 200 -
+  21/Oct/2026 01:16:50 "GET /assets/js/shell.js HTTP/1.1" 200 -
+  21/Oct/2026 01:16:50 "GET /docs HTTP/1.1" 200 -
+  21/Oct/2026 01:16:50 "GET /assets/js/page-docs.js HTTP/1.1" 200 -
+  21/Oct/2026 01:16:50 "GET /assets/css/app.css HTTP/1.1" 200 -
+  21/Oct/2026 01:16:50 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -  21/Oct/2026 01:16:50 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+
+  21/Oct/2026 01:16:50 "GET /assets/js/api.js HTTP/1.1" 200 -
+  21/Oct/2026 01:16:50 "GET /assets/js/shell.js HTTP/1.1" 200 -  21/Oct/2026 01:16:50 "GET /assets/js/page-docs.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:16:50 "GET /assets/fonts/font-7.woff2 HTTP/1.1" 200 -  21/Oct/2026 01:16:50 "GET /assets/fonts/font-13.woff2 HTTP/1.1" 200 -
+
+  21/Oct/2026 01:16:50 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:16:51 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:16:51 "GET /api/telephony/logs HTTP/1.1" 200 -
+  21/Oct/2026 01:16:51 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:16:51 "GET /api/test-runs HTTP/1.1" 200 -
+  21/Oct/2026 01:16:51 "POST /api/security/selftest HTTP/1.1" 200 -
+  21/Oct/2026 01:16:51 "GET /assets/favicon.svg HTTP/1.1" 200 -
+  21/Oct/2026 01:17:17 "GET /playground HTTP/1.1" 200 -
+  21/Oct/2026 01:17:17 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:17:17 "GET /assets/css/app.css HTTP/1.1" 200 -
+  21/Oct/2026 01:17:17 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+  21/Oct/2026 01:17:17 "GET /assets/js/api.js HTTP/1.1" 200 -
+  21/Oct/2026 01:17:17 "GET /assets/js/page-playground.js HTTP/1.1" 200 -
+  21/Oct/2026 01:17:17 "GET /assets/js/shell.js HTTP/1.1" 200 -
+  21/Oct/2026 01:17:17 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:17:18 "GET /assets/fonts/font-7.woff2 HTTP/1.1" 200 -
+  21/Oct/2026 01:17:18 "GET /assets/fonts/font-13.woff2 HTTP/1.1" 200 -
+  21/Oct/2026 01:17:18 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:17:18 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:17:18 "GET /assets/favicon.svg HTTP/1.1" 200 -
+  21/Oct/2026 01:17:59 "POST /api/sessions HTTP/1.1" 201 -
+  21/Oct/2026 01:19:19 "POST /api/tts HTTP/1.1" 200 -
+  21/Oct/2026 01:19:50 "PATCH /api/sessions/a94c8cfa-b327-4572-8466-d22a33e4669a HTTP/1.1" 200 -
+  21/Oct/2026 01:19:50 "GET /api/sessions/a94c8cfa-b327-4572-8466-d22a33e4669a HTTP/1.1" 200 -
+  21/Oct/2026 01:20:01 "GET /agents HTTP/1.1" 200 -
+  21/Oct/2026 01:20:01 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:20:01 "GET /assets/js/shell.js HTTP/1.1" 200 -
+  21/Oct/2026 01:20:01 "GET /assets/js/page-agents.js HTTP/1.1" 200 -
+  21/Oct/2026 01:20:01 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -  21/Oct/2026 01:20:01 "GET /assets/js/api.js HTTP/1.1" 200 -
+  21/Oct/2026 01:20:01 "GET /assets/css/app.css HTTP/1.1" 200 -
+
+  21/Oct/2026 01:20:01 "GET /assets/js/shell.js HTTP/1.1" 200 -
+  21/Oct/2026 01:20:01 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+  21/Oct/2026 01:20:01 "GET /assets/js/api.js HTTP/1.1" 200 -
+  21/Oct/2026 01:20:01 "GET /assets/js/page-agents.js HTTP/1.1" 200 -
+  21/Oct/2026 01:20:02 "GET /assets/fonts/font-13.woff2 HTTP/1.1" 200 -  21/Oct/2026 01:20:02 "GET /assets/fonts/font-7.woff2 HTTP/1.1" 200 -
+
+  21/Oct/2026 01:20:02 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:20:02 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:20:03 "GET /playground HTTP/1.1" 200 -
+  21/Oct/2026 01:20:03 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:20:03 "GET /assets/css/app.css HTTP/1.1" 200 -
+  21/Oct/2026 01:20:03 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -  21/Oct/2026 01:20:03 "GET /assets/js/api.js HTTP/1.1" 200 -
+  21/Oct/2026 01:20:03 "GET /assets/js/shell.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:20:03 "GET /assets/js/page-playground.js HTTP/1.1" 200 -
+  21/Oct/2026 01:20:04 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:20:04 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:20:04 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:20:05 "GET /assets/js/api.js HTTP/1.1" 200 -  21/Oct/2026 01:20:05 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+  21/Oct/2026 01:20:05 "GET /assets/js/shell.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:20:05 "GET /assets/js/page-playground.js HTTP/1.1" 200 -
+  21/Oct/2026 01:20:11 "POST /api/sessions HTTP/1.1" 201 -
+  21/Oct/2026 01:20:13 "POST /api/tts HTTP/1.1" 200 -
+  21/Oct/2026 01:20:13 "GET /assets/favicon.svg HTTP/1.1" 200 -
+  21/Oct/2026 01:20:18 "POST /api/tts HTTP/1.1" 200 -
+  21/Oct/2026 01:20:30 "PATCH /api/sessions/6b917458-2245-4941-8e91-37117e280b5a HTTP/1.1" 200 -
+  21/Oct/2026 01:20:30 "GET /api/sessions/6b917458-2245-4941-8e91-37117e280b5a HTTP/1.1" 200 -
+  21/Oct/2026 01:20:38 "GET / HTTP/1.1" 200 -
+  21/Oct/2026 01:20:38 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:20:38 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+  21/Oct/2026 01:20:38 "GET /assets/css/app.css HTTP/1.1" 200 -
+  21/Oct/2026 01:20:38 "GET /assets/js/shell.js HTTP/1.1" 200 -  21/Oct/2026 01:20:38 "GET /assets/js/api.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:20:38 "GET /assets/js/page-foundation.js HTTP/1.1" 200 -
+  21/Oct/2026 01:20:38 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+  21/Oct/2026 01:20:38 "GET /assets/js/api.js HTTP/1.1" 200 -  21/Oct/2026 01:20:38 "GET /assets/js/shell.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:20:38 "GET /assets/js/page-foundation.js HTTP/1.1" 200 -
+  21/Oct/2026 01:20:38 "GET /assets/fonts/font-7.woff2 HTTP/1.1" 200 -
+  21/Oct/2026 01:20:38 "GET /assets/fonts/font-13.woff2 HTTP/1.1" 200 -
+  21/Oct/2026 01:20:38 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:20:38 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:20:38 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:20:38 "GET /api/test-cases HTTP/1.1" 200 -  21/Oct/2026 01:20:38 "GET /api/providers HTTP/1.1" 200 -
+
+  21/Oct/2026 01:20:38 "GET /api/sessions?limit=200 HTTP/1.1" 200 -
+  21/Oct/2026 01:20:42 "GET /docs HTTP/1.1" 200 -
+  21/Oct/2026 01:20:42 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:20:42 "GET /assets/css/app.css HTTP/1.1" 200 -  21/Oct/2026 01:20:42 "GET /assets/js/api.js HTTP/1.1" 200 -  21/Oct/2026 01:20:42 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:20:42 "GET /assets/js/shell.js HTTP/1.1" 200 -
+  21/Oct/2026 01:20:42 "GET /assets/js/page-docs.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:20:43 "GET /assets/fonts/font-13.woff2 HTTP/1.1" 200 -  21/Oct/2026 01:20:43 "GET /assets/fonts/font-7.woff2 HTTP/1.1" 200 -  21/Oct/2026 01:20:43 "GET /api/health HTTP/1.1" 200 -
+
+
+  21/Oct/2026 01:20:43 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:20:43 "GET /api/agents HTTP/1.1" 200 -  21/Oct/2026 01:20:43 "GET /api/telephony/logs HTTP/1.1" 200 -
+
+  21/Oct/2026 01:20:43 "GET /api/test-runs HTTP/1.1" 200 -
+  21/Oct/2026 01:20:43 "POST /api/security/selftest HTTP/1.1" 200 -
+  21/Oct/2026 01:20:44 "GET /assets/js/api.js HTTP/1.1" 200 -  21/Oct/2026 01:20:44 "GET /assets/js/shell.js HTTP/1.1" 200 -  21/Oct/2026 01:20:44 "GET /assets/js/page-docs.js HTTP/1.1" 200 -  21/Oct/2026 01:20:44 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+
+
+
+  21/Oct/2026 01:21:48 "GET /.env HTTP/1.1" 404 -
+  21/Oct/2026 01:21:48 "GET /server.py HTTP/1.1" 404 -
+  21/Oct/2026 01:21:48 "GET /data/adriene.db HTTP/1.1" 404 -
+  21/Oct/2026 01:21:48 "GET /.gitignore HTTP/1.1" 404 -
+  21/Oct/2026 01:21:48 "GET /README.md HTTP/1.1" 200 -
+  21/Oct/2026 01:22:32 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:22:32 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:22:32 "GET /api/test-runs HTTP/1.1" 200 -
+  21/Oct/2026 01:22:32 "GET /api/telephony/logs HTTP/1.1" 200 -
+  21/Oct/2026 01:22:32 "POST /api/security/selftest HTTP/1.1" 200 -
+  21/Oct/2026 01:23:07 "GET / HTTP/1.1" 200 -
+  21/Oct/2026 01:23:09 "GET /agents HTTP/1.1" 200 -
+  21/Oct/2026 01:23:11 "GET /playground HTTP/1.1" 200 -
+  21/Oct/2026 01:23:13 "GET /lab HTTP/1.1" 200 -
+  21/Oct/2026 01:23:15 "GET /testing HTTP/1.1" 200 -
+  21/Oct/2026 01:23:17 "GET /analytics HTTP/1.1" 200 -
+  21/Oct/2026 01:23:19 "GET /security HTTP/1.1" 200 -
+  21/Oct/2026 01:23:21 "GET /telephony HTTP/1.1" 200 -
+  21/Oct/2026 01:23:23 "GET /docs HTTP/1.1" 200 -
+  21/Oct/2026 01:23:25 "GET /assets/css/app.css HTTP/1.1" 200 -
+  21/Oct/2026 01:23:27 "GET /assets/js/page-docs.js HTTP/1.1" 200 -
+  21/Oct/2026 01:23:29 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+  21/Oct/2026 01:26:10 "GET /playground HTTP/1.1" 200 -
+  21/Oct/2026 01:26:10 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:26:10 "GET /assets/css/app.css HTTP/1.1" 200 -
+  21/Oct/2026 01:26:10 "GET /assets/js/api.js HTTP/1.1" 200 -
+  21/Oct/2026 01:26:10 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+  21/Oct/2026 01:26:10 "GET /assets/js/shell.js HTTP/1.1" 200 -
+  21/Oct/2026 01:26:10 "GET /assets/js/page-playground.js HTTP/1.1" 200 -
+  21/Oct/2026 01:26:10 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:26:10 "GET /assets/fonts/font-7.woff2 HTTP/1.1" 200 -  21/Oct/2026 01:26:10 "GET /assets/fonts/font-13.woff2 HTTP/1.1" 200 -
+
+  21/Oct/2026 01:26:10 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:26:11 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:36:25 "GET /docs HTTP/1.1" 200 -
+  21/Oct/2026 01:36:25 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:36:25 "GET /assets/css/app.css HTTP/1.1" 200 -
+  21/Oct/2026 01:36:25 "GET /assets/js/api.js HTTP/1.1" 200 -
+  21/Oct/2026 01:36:25 "GET /assets/js/shell.js HTTP/1.1" 200 -  21/Oct/2026 01:36:25 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -  21/Oct/2026 01:36:25 "GET /assets/js/page-docs.js HTTP/1.1" 200 -
+
+
+  21/Oct/2026 01:36:25 "GET /assets/fonts/font-7.woff2 HTTP/1.1" 200 -
+  21/Oct/2026 01:36:25 "GET /assets/fonts/font-13.woff2 HTTP/1.1" 200 -
+  21/Oct/2026 01:36:25 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:36:25 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:36:25 "GET /api/test-runs HTTP/1.1" 200 -
+  21/Oct/2026 01:36:25 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:36:25 "GET /api/telephony/logs HTTP/1.1" 200 -
+  21/Oct/2026 01:36:25 "POST /api/security/selftest HTTP/1.1" 200 -
+  21/Oct/2026 01:36:26 "GET /assets/favicon.svg HTTP/1.1" 200 -
+  21/Oct/2026 01:36:29 "GET / HTTP/1.1" 200 -
+  21/Oct/2026 01:36:29 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+  21/Oct/2026 01:36:29 "GET /assets/js/api.js HTTP/1.1" 200 -  21/Oct/2026 01:36:29 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+
+  21/Oct/2026 01:36:29 "GET /assets/css/app.css HTTP/1.1" 200 -  21/Oct/2026 01:36:29 "GET /assets/js/shell.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:36:29 "GET /assets/js/page-foundation.js HTTP/1.1" 200 -
+  21/Oct/2026 01:36:29 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:36:29 "GET /api/agents HTTP/1.1" 200 -  21/Oct/2026 01:36:29 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:36:29 "GET /api/test-cases HTTP/1.1" 200 -
+
+  21/Oct/2026 01:36:29 "GET /api/sessions?limit=200 HTTP/1.1" 200 -  21/Oct/2026 01:36:29 "GET /api/providers HTTP/1.1" 200 -
+
+  21/Oct/2026 01:37:09 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:37:09 "GET /api/test-cases HTTP/1.1" 200 -  21/Oct/2026 01:37:09 "GET /api/providers HTTP/1.1" 200 -
+
+  21/Oct/2026 01:37:09 "GET /api/sessions?limit=200 HTTP/1.1" 200 -
+  21/Oct/2026 01:37:09 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:37:14 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+  21/Oct/2026 01:37:14 "GET /assets/css/fonts.css HTTP/1.1" 200 -  21/Oct/2026 01:37:14 "GET /assets/css/app.css HTTP/1.1" 200 -
+
+  21/Oct/2026 01:37:15 "GET / HTTP/1.1" 200 -
+  21/Oct/2026 01:37:16 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:37:16 "GET /assets/css/app.css HTTP/1.1" 200 -  21/Oct/2026 01:37:16 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:37:16 "GET /assets/js/api.js HTTP/1.1" 200 -
+  21/Oct/2026 01:37:16 "GET /assets/js/shell.js HTTP/1.1" 200 -
+  21/Oct/2026 01:37:16 "GET /assets/js/page-foundation.js HTTP/1.1" 200 -
+  21/Oct/2026 01:37:16 "GET /assets/fonts/font-7.woff2 HTTP/1.1" 200 -  21/Oct/2026 01:37:16 "GET /assets/fonts/font-13.woff2 HTTP/1.1" 200 -
+
+  21/Oct/2026 01:37:16 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+  21/Oct/2026 01:37:17 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:37:18 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:37:18 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:37:18 "GET /api/sessions?limit=200 HTTP/1.1" 200 -  21/Oct/2026 01:37:18 "GET /api/providers HTTP/1.1" 200 -
+  21/Oct/2026 01:37:18 "GET /api/test-cases HTTP/1.1" 200 -
+
+  21/Oct/2026 01:37:18 "GET /assets/favicon.svg HTTP/1.1" 200 -
+  21/Oct/2026 01:37:21 "GET /agents HTTP/1.1" 200 -
+  21/Oct/2026 01:37:21 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:37:21 "GET /assets/js/api.js HTTP/1.1" 200 -  21/Oct/2026 01:37:21 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+  21/Oct/2026 01:37:21 "GET /assets/css/app.css HTTP/1.1" 200 -
+  21/Oct/2026 01:37:21 "GET /assets/js/page-agents.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:37:21 "GET /assets/js/shell.js HTTP/1.1" 200 -
+  21/Oct/2026 01:37:21 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:37:21 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:37:21 "GET /agents HTTP/1.1" 200 -
+  21/Oct/2026 01:37:22 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:37:22 "GET /assets/css/app.css HTTP/1.1" 200 -  21/Oct/2026 01:37:22 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:37:22 "GET /assets/js/page-agents.js HTTP/1.1" 200 -
+  21/Oct/2026 01:37:22 "GET /assets/js/shell.js HTTP/1.1" 200 -  21/Oct/2026 01:37:22 "GET /assets/js/api.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:37:22 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:37:22 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:37:23 "GET / HTTP/1.1" 200 -
+  21/Oct/2026 01:37:24 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:37:24 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+  21/Oct/2026 01:37:24 "GET /assets/js/shell.js HTTP/1.1" 200 -  21/Oct/2026 01:37:24 "GET /assets/css/app.css HTTP/1.1" 200 -
+  21/Oct/2026 01:37:24 "GET /assets/js/page-foundation.js HTTP/1.1" 200 -
+  21/Oct/2026 01:37:24 "GET /assets/js/api.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:37:24 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:37:24 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:37:24 "GET /api/providers HTTP/1.1" 200 -  21/Oct/2026 01:37:24 "GET /api/test-cases HTTP/1.1" 200 -
+
+  21/Oct/2026 01:37:24 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:37:24 "GET /api/sessions?limit=200 HTTP/1.1" 200 -
+  21/Oct/2026 01:37:25 "GET /playground HTTP/1.1" 200 -
+  21/Oct/2026 01:37:26 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:37:26 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -  21/Oct/2026 01:37:26 "GET /assets/js/api.js HTTP/1.1" 200 -  21/Oct/2026 01:37:26 "GET /assets/js/shell.js HTTP/1.1" 200 -  21/Oct/2026 01:37:26 "GET /assets/js/page-playground.js HTTP/1.1" 200 -
+
+
+
+  21/Oct/2026 01:37:26 "GET /assets/css/app.css HTTP/1.1" 200 -
+  21/Oct/2026 01:37:26 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:37:26 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:37:26 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:37:29 "GET /agents HTTP/1.1" 200 -
+  21/Oct/2026 01:37:29 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:37:29 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -  21/Oct/2026 01:37:29 "GET /assets/js/shell.js HTTP/1.1" 200 -  21/Oct/2026 01:37:29 "GET /assets/js/page-agents.js HTTP/1.1" 200 -  21/Oct/2026 01:37:29 "GET /assets/js/api.js HTTP/1.1" 200 -  21/Oct/2026 01:37:29 "GET /assets/css/app.css HTTP/1.1" 200 -
+
+
+
+
+  21/Oct/2026 01:37:29 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:37:29 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:37:34 "GET /playground HTTP/1.1" 200 -
+  21/Oct/2026 01:37:35 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:37:35 "GET /assets/css/app.css HTTP/1.1" 200 -  21/Oct/2026 01:37:35 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+  21/Oct/2026 01:37:35 "GET /assets/js/api.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:37:35 "GET /assets/js/shell.js HTTP/1.1" 200 -  21/Oct/2026 01:37:35 "GET /assets/js/page-playground.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:37:35 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:37:35 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:37:35 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:37:37 "GET /lab HTTP/1.1" 200 -
+  21/Oct/2026 01:37:37 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:37:37 "GET /assets/css/app.css HTTP/1.1" 200 -  21/Oct/2026 01:37:37 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:37:37 "GET /assets/js/shell.js HTTP/1.1" 200 -  21/Oct/2026 01:37:37 "GET /assets/js/page-lab.js HTTP/1.1" 200 -
+  21/Oct/2026 01:37:37 "GET /assets/js/api.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:37:37 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:37:38 "GET /api/providers HTTP/1.1" 200 -
+  21/Oct/2026 01:37:38 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:37:48 "GET /docs HTTP/1.1" 200 -
+  21/Oct/2026 01:37:48 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:37:48 "GET /assets/css/app.css HTTP/1.1" 200 -  21/Oct/2026 01:37:48 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:37:48 "GET /assets/js/shell.js HTTP/1.1" 200 -  21/Oct/2026 01:37:48 "GET /assets/js/api.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:37:48 "GET /assets/js/page-docs.js HTTP/1.1" 200 -
+  21/Oct/2026 01:37:48 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:37:49 "GET /api/telephony/logs HTTP/1.1" 200 -
+  21/Oct/2026 01:37:49 "GET /api/test-runs HTTP/1.1" 200 -
+  21/Oct/2026 01:37:49 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:37:49 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:37:49 "POST /api/security/selftest HTTP/1.1" 200 -
+  21/Oct/2026 01:37:55 "GET / HTTP/1.1" 200 -
+  21/Oct/2026 01:37:56 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:37:56 "GET /assets/js/shell.js HTTP/1.1" 200 -  21/Oct/2026 01:37:56 "GET /assets/css/app.css HTTP/1.1" 200 -
+
+  21/Oct/2026 01:37:56 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+  21/Oct/2026 01:37:56 "GET /assets/js/page-foundation.js HTTP/1.1" 200 -  21/Oct/2026 01:37:56 "GET /assets/js/api.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:37:56 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:37:56 "GET /api/agents HTTP/1.1" 200 -  21/Oct/2026 01:37:56 "GET /api/health HTTP/1.1" 200 -
+
+  21/Oct/2026 01:37:56 "GET /api/providers HTTP/1.1" 200 -  21/Oct/2026 01:37:56 "GET /api/test-cases HTTP/1.1" 200 -
+
+  21/Oct/2026 01:37:56 "GET /api/sessions?limit=200 HTTP/1.1" 200 -
+  21/Oct/2026 01:37:57 "GET /docs HTTP/1.1" 200 -
+  21/Oct/2026 01:37:57 "GET /assets/css/app.css HTTP/1.1" 200 -  21/Oct/2026 01:37:57 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+
+  21/Oct/2026 01:37:57 "GET /assets/js/api.js HTTP/1.1" 200 -
+  21/Oct/2026 01:37:57 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -  21/Oct/2026 01:37:57 "GET /assets/js/page-docs.js HTTP/1.1" 200 -  21/Oct/2026 01:37:57 "GET /assets/js/shell.js HTTP/1.1" 200 -
+
+
+  21/Oct/2026 01:37:57 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:37:57 "GET /api/health HTTP/1.1" 200 -  21/Oct/2026 01:37:57 "GET /api/agents HTTP/1.1" 200 -  21/Oct/2026 01:37:57 "GET /api/telephony/logs HTTP/1.1" 200 -  21/Oct/2026 01:37:57 "GET /api/test-runs HTTP/1.1" 200 -  21/Oct/2026 01:37:57 "POST /api/security/selftest HTTP/1.1" 200 -
+
+
+
+
+  21/Oct/2026 01:39:50 "GET /testing HTTP/1.1" 200 -
+  21/Oct/2026 01:39:50 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:39:50 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -  21/Oct/2026 01:39:50 "GET /assets/css/app.css HTTP/1.1" 200 -
+
+  21/Oct/2026 01:39:50 "GET /assets/js/shell.js HTTP/1.1" 200 -  21/Oct/2026 01:39:50 "GET /assets/js/page-testing.js HTTP/1.1" 200 -
+  21/Oct/2026 01:39:50 "GET /assets/js/api.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:39:51 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:39:51 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:39:51 "GET /api/test-cases?agentId=66873777-5e81-4390-985c-2cdfb00355a9 HTTP/1.1" 200 -  21/Oct/2026 01:39:51 "GET /api/test-runs?agentId=66873777-5e81-4390-985c-2cdfb00355a9 HTTP/1.1" 200 -
+
+  21/Oct/2026 01:40:17 "GET /testing HTTP/1.1" 200 -
+  21/Oct/2026 01:40:17 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:40:17 "GET /assets/css/app.css HTTP/1.1" 200 -  21/Oct/2026 01:40:17 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+  21/Oct/2026 01:40:17 "GET /assets/js/shell.js HTTP/1.1" 200 -  21/Oct/2026 01:40:17 "GET /assets/js/api.js HTTP/1.1" 200 -  21/Oct/2026 01:40:17 "GET /assets/js/page-testing.js HTTP/1.1" 200 -
+
+
+
+  21/Oct/2026 01:40:17 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:40:17 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:40:17 "GET /api/test-cases?agentId=66873777-5e81-4390-985c-2cdfb00355a9 HTTP/1.1" 200 -  21/Oct/2026 01:40:17 "GET /api/test-runs?agentId=66873777-5e81-4390-985c-2cdfb00355a9 HTTP/1.1" 200 -
+
+  21/Oct/2026 01:40:23 "GET / HTTP/1.1" 200 -
+  21/Oct/2026 01:40:23 "GET /assets/css/app.css HTTP/1.1" 200 -
+  21/Oct/2026 01:40:23 "GET /assets/css/fonts.css HTTP/1.1" 200 -  21/Oct/2026 01:40:23 "GET /assets/js/api.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:40:23 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -  21/Oct/2026 01:40:23 "GET /assets/js/page-foundation.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:40:23 "GET /assets/js/shell.js HTTP/1.1" 200 -
+  21/Oct/2026 01:40:23 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:40:23 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:40:23 "GET /api/sessions?limit=200 HTTP/1.1" 200 -  21/Oct/2026 01:40:23 "GET /api/providers HTTP/1.1" 200 -
+  21/Oct/2026 01:40:23 "GET /api/test-cases HTTP/1.1" 200 -
+
+  21/Oct/2026 01:40:23 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:40:29 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+  21/Oct/2026 01:40:29 "GET /assets/css/app.css HTTP/1.1" 200 -  21/Oct/2026 01:40:29 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+
+  21/Oct/2026 01:48:55 "GET / HTTP/1.1" 200 -
+  21/Oct/2026 01:48:56 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:48:56 "GET /assets/css/app.css HTTP/1.1" 200 -
+  21/Oct/2026 01:48:56 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+  21/Oct/2026 01:48:56 "GET /assets/js/api.js HTTP/1.1" 200 -
+  21/Oct/2026 01:48:56 "GET /assets/js/shell.js HTTP/1.1" 200 -
+  21/Oct/2026 01:48:56 "GET /assets/js/page-foundation.js HTTP/1.1" 200 -
+  21/Oct/2026 01:48:56 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+  21/Oct/2026 01:49:16 "GET /assets/fonts/font-7.woff2 HTTP/1.1" 200 -
+  21/Oct/2026 01:49:16 "GET /assets/fonts/font-13.woff2 HTTP/1.1" 200 -
+  21/Oct/2026 01:49:16 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:49:43 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:49:43 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:49:43 "GET /api/sessions?limit=200 HTTP/1.1" 200 -
+  21/Oct/2026 01:49:43 "GET /api/providers HTTP/1.1" 200 -
+  21/Oct/2026 01:49:43 "GET /api/test-cases HTTP/1.1" 200 -
+  21/Oct/2026 01:49:43 "GET /assets/favicon.svg HTTP/1.1" 200 -
+  21/Oct/2026 01:49:49 "GET /agents HTTP/1.1" 200 -
+  21/Oct/2026 01:49:49 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:49:49 "GET /assets/js/shell.js HTTP/1.1" 200 -  21/Oct/2026 01:49:49 "GET /assets/js/api.js HTTP/1.1" 200 -  21/Oct/2026 01:49:49 "GET /assets/css/app.css HTTP/1.1" 200 -
+  21/Oct/2026 01:49:49 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+
+
+  21/Oct/2026 01:49:49 "GET /assets/js/page-agents.js HTTP/1.1" 200 -
+  21/Oct/2026 01:49:50 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:49:50 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:50:17 "GET /testing HTTP/1.1" 200 -
+  21/Oct/2026 01:50:17 "GET /assets/css/app.css HTTP/1.1" 200 -
+  21/Oct/2026 01:50:17 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:50:17 "GET /assets/js/api.js HTTP/1.1" 200 -
+  21/Oct/2026 01:50:17 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+  21/Oct/2026 01:50:17 "GET /assets/js/shell.js HTTP/1.1" 200 -
+  21/Oct/2026 01:50:17 "GET /assets/js/page-testing.js HTTP/1.1" 200 -
+  21/Oct/2026 01:50:17 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:50:17 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:50:17 "GET /api/test-cases?agentId=66873777-5e81-4390-985c-2cdfb00355a9 HTTP/1.1" 200 -
+  21/Oct/2026 01:50:17 "GET /api/test-runs?agentId=66873777-5e81-4390-985c-2cdfb00355a9 HTTP/1.1" 200 -
+  21/Oct/2026 01:50:44 "POST /api/test-runs HTTP/1.1" 201 -
+  21/Oct/2026 01:50:44 "GET /api/test-runs?agentId=66873777-5e81-4390-985c-2cdfb00355a9 HTTP/1.1" 200 -
+  21/Oct/2026 01:50:51 "GET /analytics HTTP/1.1" 200 -
+  21/Oct/2026 01:50:51 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:50:51 "GET /assets/css/app.css HTTP/1.1" 200 -
+  21/Oct/2026 01:50:51 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -  21/Oct/2026 01:50:51 "GET /assets/js/api.js HTTP/1.1" 200 -  21/Oct/2026 01:50:51 "GET /assets/js/shell.js HTTP/1.1" 200 -
+  21/Oct/2026 01:50:51 "GET /assets/js/page-analytics.js HTTP/1.1" 200 -
+
+
+  21/Oct/2026 01:50:51 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:50:51 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:50:51 "GET /api/analytics/summary?days=30 HTTP/1.1" 200 -
+  21/Oct/2026 01:50:51 "GET /api/sessions?limit=200 HTTP/1.1" 200 -
+  21/Oct/2026 01:51:00 "GET /api/sessions/6b917458-2245-4941-8e91-37117e280b5a HTTP/1.1" 200 -
+  21/Oct/2026 01:51:10 "GET /api/sessions/6b917458-2245-4941-8e91-37117e280b5a HTTP/1.1" 200 -
+  21/Oct/2026 01:51:16 "GET /api/analytics/summary?agentId=66873777-5e81-4390-985c-2cdfb00355a9&days=30 HTTP/1.1" 200 -  21/Oct/2026 01:51:16 "GET /api/sessions?limit=200&agentId=66873777-5e81-4390-985c-2cdfb00355a9 HTTP/1.1" 200 -
+
+  21/Oct/2026 01:51:18 "GET /api/sessions?limit=200&agentId=66873777-5e81-4390-985c-2cdfb00355a9 HTTP/1.1" 200 -  21/Oct/2026 01:51:18 "GET /api/analytics/summary?agentId=66873777-5e81-4390-985c-2cdfb00355a9&days=30 HTTP/1.1" 200 -
+
+  21/Oct/2026 01:51:30 "GET /docs HTTP/1.1" 200 -
+  21/Oct/2026 01:51:30 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:51:30 "GET /assets/js/api.js HTTP/1.1" 200 -
+  21/Oct/2026 01:51:30 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -  21/Oct/2026 01:51:30 "GET /assets/css/app.css HTTP/1.1" 200 -
+
+  21/Oct/2026 01:51:30 "GET /assets/js/shell.js HTTP/1.1" 200 -  21/Oct/2026 01:51:30 "GET /assets/js/page-docs.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:51:31 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:51:31 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:51:31 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:51:31 "GET /api/telephony/logs HTTP/1.1" 200 -
+  21/Oct/2026 01:51:31 "GET /api/test-runs HTTP/1.1" 200 -
+  21/Oct/2026 01:51:31 "POST /api/security/selftest HTTP/1.1" 200 -
+  21/Oct/2026 01:53:31 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:53:31 "GET /api/test-runs HTTP/1.1" 200 -  21/Oct/2026 01:53:31 "GET /api/telephony/logs HTTP/1.1" 200 -
+  21/Oct/2026 01:53:31 "POST /api/security/selftest HTTP/1.1" 200 -
+  21/Oct/2026 01:53:31 "GET /api/agents HTTP/1.1" 200 -
+
+  21/Oct/2026 01:53:41 "GET /testing HTTP/1.1" 200 -
+  21/Oct/2026 01:53:41 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:53:41 "GET /assets/css/app.css HTTP/1.1" 200 -
+  21/Oct/2026 01:53:41 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -  21/Oct/2026 01:53:41 "GET /assets/js/api.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:53:41 "GET /assets/js/page-testing.js HTTP/1.1" 200 -
+  21/Oct/2026 01:53:41 "GET /assets/js/shell.js HTTP/1.1" 200 -
+  21/Oct/2026 01:53:41 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:53:41 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:53:41 "GET /api/test-runs?agentId=66873777-5e81-4390-985c-2cdfb00355a9 HTTP/1.1" 200 -
+  21/Oct/2026 01:53:41 "GET /api/test-cases?agentId=66873777-5e81-4390-985c-2cdfb00355a9 HTTP/1.1" 200 -
+  21/Oct/2026 01:53:44 "GET /lab HTTP/1.1" 200 -
+  21/Oct/2026 01:53:44 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:53:44 "GET /assets/css/app.css HTTP/1.1" 200 -
+  21/Oct/2026 01:53:44 "GET /assets/js/api.js HTTP/1.1" 200 -  21/Oct/2026 01:53:44 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:53:44 "GET /assets/js/shell.js HTTP/1.1" 200 -
+  21/Oct/2026 01:53:44 "GET /assets/js/page-lab.js HTTP/1.1" 200 -
+  21/Oct/2026 01:53:44 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:53:44 "GET /api/providers HTTP/1.1" 200 -  21/Oct/2026 01:53:44 "GET /api/health HTTP/1.1" 200 -
+
+  21/Oct/2026 01:54:00 "POST /api/providers/022ea2f7-2a5b-47bf-b741-bb0066dfa40c/test HTTP/1.1" 200 -
+  21/Oct/2026 01:54:03 "POST /api/providers/3529f67f-e5c5-4d0c-82dc-d8954fac2282/test HTTP/1.1" 200 -
+  21/Oct/2026 01:54:26 "POST /api/providers/151dbcd8-5571-448a-833f-817578801636/test HTTP/1.1" 200 -
+  21/Oct/2026 01:54:28 "POST /api/providers/dca2898e-5c61-4fc7-825b-e2578028189f/test HTTP/1.1" 200 -
+  21/Oct/2026 01:54:29 "POST /api/providers/29ab98c3-2845-4e00-80ab-9e76bf8117c0/test HTTP/1.1" 200 -
+  21/Oct/2026 01:55:19 "GET / HTTP/1.1" 200 -
+  21/Oct/2026 01:55:20 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:55:20 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+  21/Oct/2026 01:55:20 "GET /assets/js/api.js HTTP/1.1" 200 -  21/Oct/2026 01:55:20 "GET /assets/css/app.css HTTP/1.1" 200 -
+
+  21/Oct/2026 01:55:20 "GET /assets/js/shell.js HTTP/1.1" 200 -
+  21/Oct/2026 01:55:20 "GET /assets/js/page-foundation.js HTTP/1.1" 200 -
+  21/Oct/2026 01:55:20 "GET /assets/fonts/font-7.woff2 HTTP/1.1" 200 -
+  21/Oct/2026 01:55:20 "GET /assets/fonts/font-13.woff2 HTTP/1.1" 200 -
+  21/Oct/2026 01:55:20 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:55:20 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:55:20 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:55:20 "GET /api/sessions?limit=200 HTTP/1.1" 200 -
+  21/Oct/2026 01:55:20 "GET /api/test-cases HTTP/1.1" 200 -
+  21/Oct/2026 01:55:20 "GET /api/providers HTTP/1.1" 200 -
+  21/Oct/2026 01:55:39 "GET /agents HTTP/1.1" 200 -
+  21/Oct/2026 01:55:39 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:55:39 "GET /assets/js/api.js HTTP/1.1" 200 -
+  21/Oct/2026 01:55:39 "GET /assets/css/app.css HTTP/1.1" 200 -
+  21/Oct/2026 01:55:39 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+  21/Oct/2026 01:55:39 "GET /assets/js/shell.js HTTP/1.1" 200 -
+  21/Oct/2026 01:55:39 "GET /assets/js/page-agents.js HTTP/1.1" 200 -
+  21/Oct/2026 01:55:39 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:55:40 "GET /api/agents HTTP/1.1" 200 -
+  21/Oct/2026 01:55:44 "GET / HTTP/1.1" 200 -
+  21/Oct/2026 01:55:44 "GET /assets/vendor/tailwind.js HTTP/1.1" 200 -
+  21/Oct/2026 01:55:44 "GET /assets/css/app.css HTTP/1.1" 200 -
+  21/Oct/2026 01:55:44 "GET /assets/css/fonts.css HTTP/1.1" 200 -
+  21/Oct/2026 01:55:44 "GET /assets/js/api.js HTTP/1.1" 200 -  21/Oct/2026 01:55:44 "GET /assets/js/shell.js HTTP/1.1" 200 -
+
+  21/Oct/2026 01:55:44 "GET /assets/js/page-foundation.js HTTP/1.1" 200 -
+  21/Oct/2026 01:55:45 "GET /api/health HTTP/1.1" 200 -
+  21/Oct/2026 01:55:45 "GET /api/sessions?limit=200 HTTP/1.1" 200 -
+  21/Oct/2026 01:55:45 "GET /api/providers HTTP/1.1" 200 -
+  21/Oct/2026 01:55:45 "GET /api/test-cases HTTP/1.1" 200 -
+  21/Oct/2026 01:55:45 "GET /api/health HTTP/1.1" 200 -  21/Oct/2026 01:55:45 "GET /api/agents HTTP/1.1" 200 -
+
